@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --dark-gray: hsl(0, 0%, 63%);
+    --Soft-red: hsl(7, 99%, 70%);
+    --Yellow: hsl(51, 100%, 49%);
+    --Dark-desaturated-cyan: hsl(167, 40%, 24%); /* Graphic design text */ 
+    --Dark-blue: hsl(198, 62%, 26%); /* Photography text */
+    --Dark-moderate-cyan: hsl(168, 34%, 41%); /* Footer */
+    --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+    --Very-dark-grayish-blue: hsl(213, 9%, 39%);
+    --Dark-grayish-blue: hsl(232, 10%, 55%);
+    --Grayish-blue: hsl(210, 4%, 67%);
+    --White: hsl(0, 0%, 100%);
+}
+
+/* NAVIGATIONS & IT'S BACKGROUND IMAGE */
+.bgandnav { 
+    background-image: url("desktop/image-header.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 750px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    margin: 20px;
+    height: 20px;
+}
+ul {
+    display: flex;
+    margin: 20px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: var(--White);
+    margin: 20px;
+}
+.handa {
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+.arrowdown {
+    margin-top: 80px;
+}
+h1 {
+    color: var(--White);
+    font-family:cursive;
+    font-weight: 600;
+    letter-spacing: 10px;
+}
+
+/* ACTUAL BODY SECTION */
+
+.firstrow {
+    display: flex;
+}
+.row1write {
+    /* background-image: url("desktop/image-graphic-design.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    width: 50%;
+    height: 550px;
+}
+.row1simg {
+    background-image: url("desktop/image-transform.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 50%;
+    height: 550px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.secondrow {
+    display: flex;
+}
+.row2fimg {
+    background-image: url("desktop/image-stand-out.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 50%;
+    height: 550px;
+}
+.row2write {
+    /* background-image: url("desktop/image-photography.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    width: 50%;
+    height: 550px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .thirdrow {
+    display: flex;
+}
+.row3fimg {
+    background-image: url("desktop/image-graphic-design.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 50%;
+    height: 550px;
+}
+.row3simg {
+    background-image: url("desktop/image-photography.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 50%;
+    height: 550px;
+} */
+
