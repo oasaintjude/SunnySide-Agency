@@ -239,6 +239,9 @@ footer {
     margin-left: 15px;
     width: 15px;
 }
+.aicons {
+    margin: 0px;
+}
 
 
 
@@ -261,13 +264,15 @@ footer {
     }
     p {
         width: 100%;
+
         text-align: center;
     }   
     .learnmore {
         color: black;
-        margin-left: 110px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: large;
+        margin-left: 0px;
+        position: absolute;
+        left: 35%;
+        /* width: 50%; */
     }
 
     /* FIRST ROW */
